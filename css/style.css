@@ -173,9 +173,8 @@ h2{
 .container.large{
     display: block;
     text-align: center;
-    padding: 200px 0;
-    /* DEBUG */
-    min-height: 550px;
+    padding-top: 200px;
+    padding-bottom: 100px;
 }
 
 .title-large{
@@ -271,17 +270,10 @@ h4{
 
 .help{
     margin: 10px 0;
-    color: white;
 }
 
-.help a{
+.help .help a{
     color: white;
-}
-
-.logo.footer{
-    /* DEBUG */
-    background-color: salmon;
-    border: black 1px dashed;
 }
 
 .download.signup{
