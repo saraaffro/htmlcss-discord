@@ -1,0 +1,125 @@
+/* stili generali */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: ‘Helvetica Neue’, Helvetica, Arial, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+li{
+    list-style-type: none;
+}
+
+.container{
+    width: 70%;
+    margin: auto;
+    display: flex;
+}
+
+
+
+/* stili header */
+header{
+    color: white;
+    background-color: #7289da;
+    padding-top: 20px;
+    min-height: 500px;
+}
+
+#search{
+    padding: 10px 0;
+}
+
+.container.header{
+    padding: 5px 0;
+    justify-content: space-between;
+}
+
+#main-nav{
+    display: flex;
+    flex-basis: 50%;
+}
+
+.logo.header{
+    flex-basis: 20%;
+}
+
+#main-nav ul{
+    display: flex;
+    justify-content: space-around;
+    min-width: 600px;
+}
+
+.logo.login{
+    flex-basis: 20%;
+    text-align: right;
+}
+
+#signin{
+    background-color: white;
+    border: 1px solid white;
+    color: black;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+#main-info{
+    display: flex;
+}
+
+.info{
+    padding: 50px 0;
+    flex-basis: 55%;
+    margin: 0 auto;
+}
+
+h1{
+    text-align: center;
+    font-size: 60px;
+}
+
+.info p{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    font-size: 19px;
+    line-height: 25px;
+}
+
+.scarica{
+    text-align: center;
+}
+
+.download{
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.fa-solid.fa-arrow-down{
+    padding: 7px;
+}
+
+.download.mac{
+    border: 1px solid white;
+    color: black;
+    background-color: white;
+    margin-right: 20px;
+}
+
+.download.browser{
+    border: 1px solid black;
+    color: white;
+    background-color: black;
+}
+
+
