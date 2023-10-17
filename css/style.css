@@ -123,3 +123,79 @@ h1{
 }
 
 
+
+/* stili main */
+.main{
+    display: flex;
+}
+
+.main.grey{
+    background-color: #f6f6f6;
+}
+
+.container.item{
+    padding: 200px 0;
+    justify-content: space-between;
+}
+
+.image{
+    flex-basis: 55%;
+    /* DEBUG */
+    background-color: lightblue;
+}
+
+.text{
+    flex-basis: 40%;
+}
+
+h2{
+    font-size: 50px;
+}
+
+.description{
+    font-size: 23px;
+    line-height: 30px;
+    margin-top: 30px;
+    font-style: normal;
+}
+
+.container.item.reverse{
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.main.grey.large{
+    min-height: 600px;
+}
+
+.container.large{
+    display: block;
+    text-align: center;
+    padding: 200px 0;
+    /* DEBUG */
+    min-height: 550px;
+}
+
+.title-large{
+    font-size: 45px;
+}
+
+.description-large{
+    font-size: 20px;
+    line-height: 30px;
+    margin: 30px 5px 30px 5px;
+}
+
+.adventure{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.download.mac.last{
+    border: 1px solid #7289da;
+    color: white;
+    background-color: #7289da;
+    font-size: 20px;
+}
+
+
