@@ -141,8 +141,12 @@ h1{
     justify-content: space-between;
 }
 
-.image{
+.image-block{
     flex-basis: 50%;
+}
+
+.image{
+    width: 100%;
 }
 
 .text{
@@ -150,7 +154,7 @@ h1{
 }
 
 h2{
-    font-size: 40px;
+    font-size: 52px;
     padding-top: 30px;
 }
 
@@ -175,6 +179,10 @@ h2{
     text-align: center;
     padding-top: 100px;
     padding-bottom: 100px;
+}
+
+#big{
+    width: 100%;
 }
 
 .title-large{
@@ -213,6 +221,8 @@ h2{
 .wave.white{
     background-color: #f6f6f6;
 }
+
+
 
 /* stili footer */
 .main.footer{
