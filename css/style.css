@@ -205,20 +205,20 @@ h2{
     font-size: 20px;
 }
 
-
+.wave{
+    width: 100%;
+    fill: white;
+}
 
 /* stili footer */
 .main.footer{
     display: flex;
     padding: 40px 0;
-     /* DEBUG */
     background-color: #23272a;
 }
 
 .container.footer{
     justify-content: space-between;
-     /* DEBUG */
-     min-height: 300px;
 }
 
 .col{
