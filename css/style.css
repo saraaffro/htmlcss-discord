@@ -32,7 +32,9 @@ header{
     color: white;
     background-color: #7289da;
     padding-top: 20px;
-    min-height: 500px;
+    min-height: 550px;
+    background-image: url("../img/jumbo.png");
+    background-size: cover;
 }
 
 #search{
@@ -46,21 +48,22 @@ header{
 
 #main-nav{
     display: flex;
-    flex-basis: 50%;
+    flex-basis: 70%;
+    justify-content: center;
 }
 
 .logo.header{
-    flex-basis: 20%;
+    flex-basis: 10%;
 }
 
 #main-nav ul{
     display: flex;
     justify-content: space-around;
-    min-width: 600px;
+    min-width: 500px;
 }
 
 .logo.login{
-    flex-basis: 20%;
+    flex-basis: 10%;
     text-align: right;
 }
 
@@ -139,9 +142,7 @@ h1{
 }
 
 .image{
-    flex-basis: 55%;
-    /* DEBUG */
-    background-color: lightblue;
+    flex-basis: 50%;
 }
 
 .text{
@@ -149,13 +150,14 @@ h1{
 }
 
 h2{
-    font-size: 50px;
+    font-size: 40px;
+    padding-top: 30px;
 }
 
 .description{
     font-size: 23px;
     line-height: 30px;
-    margin-top: 30px;
+    margin-top: 20px;
     font-style: normal;
 }
 
@@ -184,6 +186,12 @@ h2{
     font-size: 20px;
     line-height: 30px;
     margin: 30px 5px 30px 5px;
+}
+
+#stars{
+    width: 600px;
+    text-align: center;
+    margin-top: 40px;
 }
 
 .adventure{
@@ -222,10 +230,15 @@ h2{
     flex-basis: 35%;
 }
 
+#ita{
+    width: 20px;
+    margin-left: 10px;
+}
+
 #choose{
     background-color:  #23272a;
     color: white;
-    margin: 30px 10px 10px 10px;
+    margin: 30px 10px 10px 0px;
 }
 
 .fa-brands{
@@ -236,8 +249,6 @@ h2{
 .main.footer.last{
     display: flex;
     padding: 10px 0;
-    /* DEBUG */
-    min-height: auto;
     background-color: #23272a;
 }
 
