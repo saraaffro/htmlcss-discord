@@ -207,6 +207,14 @@ h2{
 
 .wave{
     width: 100%;
+}
+
+.wave.gray{
+    fill: #f6f6f6;
+}
+
+.wave.white{
+    background-color: #f6f6f6;
     fill: white;
 }
 
