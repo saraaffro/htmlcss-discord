@@ -199,3 +199,83 @@ h2{
 }
 
 
+
+/* stili footer */
+.main.footer{
+    display: flex;
+    padding: 40px 0;
+     /* DEBUG */
+    background-color: #23272a;
+}
+
+.container.footer{
+    justify-content: space-between;
+     /* DEBUG */
+     min-height: 300px;
+}
+
+.col{
+    flex-basis: 15%;
+}
+
+.col.first{
+    flex-basis: 35%;
+}
+
+#choose{
+    background-color:  #23272a;
+    color: white;
+    margin: 30px 10px 10px 10px;
+}
+
+.fa-brands{
+    color:  white;
+    margin: 5px 10px;
+}
+
+.main.footer.last{
+    display: flex;
+    padding: 10px 0;
+    /* DEBUG */
+    min-height: auto;
+    background-color: #23272a;
+}
+
+.container.last{
+    border-top: solid 1px #7289da;
+    padding: 20px 3px;
+    justify-content: space-between;
+}
+
+.talk{
+    font-size: 30px;
+    color: #7289da;
+    padding-right: 35px;
+    margin-left: 10px;
+}
+
+h4{
+    color: #7289da;
+}
+
+.help{
+    margin: 10px 0;
+    color: white;
+}
+
+.help a{
+    color: white;
+}
+
+.logo.footer{
+    /* DEBUG */
+    background-color: salmon;
+    border: black 1px dashed;
+}
+
+.download.signup{
+    background-color: #7289da;
+    color: white;
+}
+
+
